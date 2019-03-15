@@ -1,0 +1,1664 @@
+/*
+#eee
+#fff
+#222
+red*/
+
+
+/*===================================================================================================================================                                    GENERAL SETTINGS                                                                               
+===================================================================================================================================*/
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+html,body{
+    height: 100%;
+}
+body{
+/*    margin: 0;*/
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.bottom-margin{
+    margin-bottom: 30px;
+}
+
+/*===================================================================================================================================                                    PARALLAC IMAGE                                                                                 
+===================================================================================================================================*/
+
+.bg-parallax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*===================================================================================================================================                                    FONT SETTINGS                                                                                
+===================================================================================================================================*/
+
+
+.text-heading{
+    color: #41464B;
+    text-transform: uppercase;
+    font-size: 32px;
+
+}
+
+/*===================================================================================================================================                                    CONTENT BOX CSS                                                                                
+===================================================================================================================================*/
+
+.content-box{
+    padding: 60px 0;
+}
+.content-title .text-heading{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px;
+}
+.content-title-underline{
+    width: 30px;
+    height: 3px;
+    background: red;
+    margin: 0 auto 30px;
+}
+
+
+
+/*==================================================================================================================================                              NAVIGATION SECTION CSS                                                                                   
+===================================================================================================================================*/
+
+
+
+#mmt-menu{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background: #41464B;;
+    padding: 0;
+/*    position: fixed; !important*/
+    z-index: 99999;
+    margin-top: 0;
+}
+.top-bar{
+    list-style: none; 
+    display: inline-block;
+    float: right;
+    
+/*    margin-top: 10px;*/
+/*    padding-top: 9px;*/
+    
+}
+
+.top-bar a{
+    text-decoration: none;
+    display: inline;
+    color: #fff;
+    
+    
+}
+
+.top-bar a:hover{
+    cursor: pointer;
+}
+
+.top-bar li{
+    display: inline;
+    padding-right: 70px;
+    font-size: 20px;
+}
+
+
+/*==================================================================================================================================                              HOLIDAY SECTION 1 CSS                                                                                   
+===================================================================================================================================*/
+#holiday-section-1{
+    height: 100%;
+    width: 100%;
+/*    margin: 0 auto;*/
+        margin-left: 0px; 
+}
+#holiday-section-1 .carousel-images{
+   background-image: url('../img/top-1.jpg');
+    width: 100%;
+    height: 100%;
+/*    margin-top: 50px;*/
+/*    margin-left: 0px;*/
+    
+}
+
+.inner{
+/*       background-image: url('bg-1.jpg');*/
+    
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.main-container{
+    border:3px solid #fff;
+    float: left;
+/*    margin:0 auto;*/
+    margin-left: 400px;
+    width: 400px; 
+    height:200px;
+    margin-top: 4%;
+    padding:90px;
+}
+.search-packages{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.    search-static-package{
+/*    margin: 0 auto;*/
+}
+.search-static-package select{
+    font-size: 35px;
+/*    border: none;*/
+/*    background: transparent;*/
+/*    padding: 5px;*/
+    width: 200px;
+/*    margin-left: 200px;*/
+/*    height: 500px;*/
+/*    left: 500px;*/
+  
+}
+
+
+
+.search-static-package button{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 0px;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 7px;
+    background: transparent;
+    color: #fff;
+}
+
+.search-static-package button:hover{
+    background: #fff;
+    color: #41464B;
+
+}
+
+.search-static-package a:hover{
+    color: #41464B;
+    
+}
+.search-packages h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.search-custom-packages a{
+    text-decoration: none;
+    font-size: 35px;
+/*    margin-l/eft: 50px;*/
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 7px;
+}
+
+.search-custom-packages a:hover{
+    background: #fff;
+    color: #41464B;
+}
+.content-photo-1{
+/*    background-image: url('yatra1.jpg');    */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.content-photo-1 .photo-explanation{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 250px;
+    
+}
+.content-photo-1 .photo-explanation h2{
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+.content-photo-1 .photo-explanation span{
+    color: red;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.content-photo-1 .button-photo-1 a{
+    color: #fff;
+    border: solid 3px #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 8px 20px;
+    text-decoration: none;
+    
+}
+.content-photo-1 .button-photo-1 a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #41464B;;
+}
+
+
+
+/*==================================================================================================================================                              TOP DESTINATION SECTION                                                                                   
+===================================================================================================================================*/
+
+#top-destination{
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+}
+
+#top-destination .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+/*    padding: 50px;*/
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+    
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.top-d{
+    margin-top: -30px;
+/*    position: relative;*/
+/*    background-color: aqua;*/
+    
+}
+
+#top-destination .top-d-img{
+    width: 300px;
+    height: 300px;
+    padding-right: 120px;
+   
+}
+#top-destination .top-d-img:hover{
+    cursor: pointer;
+}
+
+.top-destination-1 .top-d-img{
+    background: url('../img/andaman1.jpg');
+    
+}
+.top-destination-2 .top-d-img{
+    background: url('../img/thailand1.jpg');
+}
+.top-destination-3 .top-d-img{
+    background: url('../img/bali1.jpg');
+}
+.top-destination-4 .top-d-img{
+    background: url('../img/europe1.jpg');
+}
+.top-destination-5 .top-d-img{
+    background: url('../img/manali1.jpg');
+}
+.top-destination-6 .top-d-img{
+    background: url('../img/dubai1.jpg');
+}
+.top-destination-7 .top-d-img{
+    background: url('../img/usa1.jpg');
+
+}
+.top-destination-8 .top-d-img{
+    background: url('../img/london1.jpg');
+}
+
+.top-d-img .top-d-content{
+    display: table;
+}
+.top-d-img .top-d-content h4{
+/*    display: table-cell;*/
+/*    vertical-align: middle;*/
+    margin-top: 200px;
+    color: #fff;
+    padding-left: 50px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.top-d-img .top-d-content p{
+    margin-top: -15px;
+    color: #fff;
+    padding-left: 50px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/*
+#top-destination .top-d-img h3{
+    position: absolute;
+    text-align: center;
+    color: white;
+    line-height: 150px;
+     background: black;
+    background: rgba(0,0,0,0.5);
+     width: 200px;
+    height: 300px;
+    line-height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.top-d-img:hover h3{
+    display: block;
+}
+
+*/
+
+
+/*==================================================================================================================================                              RELATIONSHIP SECTION                                                                                   
+===================================================================================================================================*/
+
+#relationship-section{
+    width: 100%;
+    height: 100%;
+}
+
+.red-background
+{
+    width: 1220px;
+    width: 1220px;
+    height: 500px;
+    background: url('../img/red1-bg.jpg');
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.red-background .container-1{
+    background: url('../img/family.jpg');
+    height: 300px;
+    width: 215px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.red-background .container-2{
+    background: url('../img/couple.jpg');
+    height: 300px;
+    width: 215px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.red-background .container-3{
+    background: url('../img/friends.jpg');
+    height: 300px;
+    width: 215px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+   
+}
+.tp34{
+   
+    display: table;
+    height: 300px;
+    width: 215px;
+}
+.relation{
+   display: table-cell;
+    vertical-align: middle;
+    z-index: 4;
+}
+
+.relation img{
+    height: 300px;
+    width: 215px;
+}
+
+
+.relation a{
+    bottom: 3px;
+    top: 100px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-align: center;
+    background: black;
+    background: rgba(0,0,0,0.5);
+    width: 215px;
+    height: 300px;
+    line-height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.relation:hover p{
+    display: none;
+}
+.relation:hover a{
+    display: block;
+    cursor: pointer;
+}
+
+
+.relation p{
+    bottom: 7px;
+    top: 80px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    font-size: 24px;
+    z-index: 4;
+    font-weight: 500;
+}
+
+
+
+/*==================================================================================================================================                              NATIONAL TRIPS SECTION                                                                                   
+===================================================================================================================================*/
+
+#national-trips{
+    height: 105%;
+    width: 100%;
+    background-color: #eee;
+}
+
+.inner-state-box{
+    width: 350px;
+    height: 550px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 55px;
+/*    float: left;*/
+    margin-top: 0px;
+}
+.inner-state-box-content{
+    width: 350px;
+    height: 600px;
+}
+.inner-state-box-1-photo{
+    width: 350px;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url('../img/north1.jpg');
+}
+    
+
+.inner-state-box-2-photo{
+    width: 350px;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url('../img/west1.jpg');
+}
+
+
+
+.inner-state-box-3-photo{
+    width: 350px;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url('../img/south1.jpg');
+}
+
+
+.inner-state-box-4-photo{
+    width: 350px;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url('../img/east1.jpg')    ;
+}
+
+.inner-state-box-content p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    
+} 
+
+.inner-state-box-content p span{
+    font-size: 32px;
+    color: red;
+    font-weight: 900;
+/*    border: solid 1px #eee;*/
+/*    margin: 10px 7px;*/
+}
+
+.inner-state-box-content a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #41464B;
+    font-size: 25px;
+    border: solid 1px #41464B;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.inner-state-box-content a:hover{
+    background-color: #41464B;
+    color: #fff;
+}
+
+
+
+
+/*==================================================================================================================================                              ABOUT SECTION                                                                                   
+===================================================================================================================================*/
+
+#about-section{
+    width: 100%;
+    height: 75%;
+    background: url('../img/yatra1.jpg');
+    background-size: cover;
+
+}
+
+.reason{
+/*    background: antiquewhite;*/
+/*    position: relative;*/
+    float: left;
+    width: 180px;
+    height: 150px;
+    margin-left: 95px;
+}
+.reason p{
+    text-align: center;
+    color: #41464B;  
+    font-size: 18px;
+    font-weight: 700;
+}
+.reason i{
+    margin-left: 55px;
+    color: #41464B;
+    
+    
+}
+
+.counter-part{
+    float: left;
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-bottom: 0;
+    
+}
+
+.counter-part p{
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    border-top: solid 1px #fff;
+    margin-top: -20px;
+    padding-top: 20px;
+    
+}
+.counter-part h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+
+/*==================================================================================================================================                              TRAVEL CONTEST SECTION                                                                                   
+===================================================================================================================================*/
+
+#travel-contest-section{
+    height: 60%;
+    width: 100%;
+/*    background-color: antiquewhite;*/
+/*    background: url('img/red1-bg.jpg');*/
+    
+}
+
+.travel-text{
+    float: left;
+}
+.love-travel{
+    margin-top: 50px;
+    width: 700px;
+    color: #41464B; 
+    
+}
+
+.love-travel h4{
+    font-size: 30px;
+/*    text-align: center;*/
+    font-style: italic;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.love-travel h3{
+    font-size: 60px;
+    margin-left: 100px;
+/*    text-align: center;*/
+    text-transform: uppercase;
+    
+}
+
+.story-form{
+/*    margin-left: 400px;  */
+/*    margin-top: 200px;*/
+}
+.story-form textarea{
+    margin-top: 50px;
+    margin-left: 130px;
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 50px;
+    border: solid 1px #41464B;
+}
+
+.story-form a{
+    margin-top: 180px;
+    padding: 15px;
+    text-decoration: none;
+    color: #41464B;
+    margin-left: 130px;
+    font-size: 25px;
+    border: solid 1px #41464B;
+    
+}
+.story-form a:hover{
+    background: #41464B; 
+    color: #fff;
+}
+
+/*==================================================================================================================================                              CONTACT SECTION                                                                                   
+===================================================================================================================================*/
+
+ #contact-section{
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0,0,0,0.1);
+    width: 100%;
+    height: 500px;
+}
+#contact-section .container{
+/*    display: inline-block;*/
+}
+
+.contact-section-body{
+    width: 100%;
+    height: 500px;
+/*    display: inline-block;*/
+}
+
+.contact-section-body .contact-section-left{
+/*    background: #eee;*/
+    height: 500px;
+    width: 550px;
+    display: inline-block;
+    margin-left: 150px;
+/*    margin-top: -100px;*/
+/*    padding-top: -100px;*/
+    float: left;
+}
+
+.contact-section-body .contact-section-right{
+/*    background: #eee;*/
+    height: 500px;
+    width: 550px;
+    display: inline-block;
+    margin-left: 300px;
+    float: left;
+}
+
+.website-description{
+    height: 120px;
+    width: 500px;
+        
+}
+.website-description h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.website-description p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -12px;
+}
+.map-photo{
+    background-image: url('../img/world-map.png');
+    background-size: contain;
+    width: 400px;
+    height: 300px;
+}
+
+.map-photo strong,
+.map-photo p{
+    color: #fff;
+/*    margin-top: 20px;*/
+}
+
+.map-photo strong{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.map-photo p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.phone-fax-email{
+    color: #fff;
+    margin-top: 50px;
+}
+
+
+.contact-form h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact-form input{
+    background-color: #41464b;
+    border: none;
+    border: solid 1px #fff;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.contact-form textarea{
+    background-color: #41464b;
+    border: none;
+    border: solid 1px #fff;
+    width: 100%;
+    margin-bottom: 55px;
+    padding: 20px;
+}
+.contact-form button{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+    border: solid 2px #fff;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    color: #fff;
+    background: #41464B;
+}
+
+
+/*==================================================================================================================================                              footer SECTION                                                                                   
+===================================================================================================================================*/
+
+#footer{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.footer-left{
+    height: 75%;
+    width: 550px;
+    display: inline-block;
+    margin-left: 150px;
+   
+}
+
+.footer-right{
+    height: 75%;
+    width: 500px;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.footer-left p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-links{
+    padding: 0 40px;
+    color: #fff;
+}
+.footer-links a{
+    text-decoration: none;
+}
+
+.bottom-links{
+    color: #fff;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+
+
+/*==================================================================================================================================                         CSS OF AJAX CALLS                                                                                   
+===================================================================================================================================*/
+
+
+/*==================================================================================================================================                   SEARCH HOTEl AJAX CSS
+===================================================================================================================================*/
+.search-hotel-content{
+    margin-top: 100px;
+    background-color: #ddd;
+    opacity: 0.9;
+/*    background: url('img/red1-bg.jpg');*/
+/*    font-size: 80px;*/
+/*    padding-left: 150px;*/
+    height: 250px;
+    float: left;
+    width: 100%;
+}               
+.search-hotel-content label{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 50px;
+    color: #41464B;
+    color: #222;
+}
+.search-hotel-content input{
+    margin-top: 60px;
+    margin-left: 20px;
+    height: 40px;
+    padding: 5px;
+    color: #41464B;
+}
+
+.search-hotel-content button{
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 50px;
+    color: #41464B;
+    border: solid 1px #41464B;
+    padding: 7px;
+}
+.search-hotel-content button:hover{
+    background: #41464B;
+    color: #fff;
+}
+
+.search-hotel-content .cancel{
+    font-size: 10px;
+}
+
+
+
+/*==================================================================================================================================                   SEARCH FLIGHT AJAX CSS
+===================================================================================================================================*/
+
+.search-flight{
+    background-color: #ddd;
+    opacity: 0.8;
+    width: 100%;    
+}
+.search-flight-content{
+    background-color: #ddd;
+    opacity: 0.8;
+     height: 300px;
+/*    float: left;*/
+/*    margin-top: 50px;*/
+    width: 100%;
+}
+
+.search-flight-part-left{
+/*    position: relative;*/
+    float: left;
+    margin-left: 200px;
+}
+.search-flight-part-right{
+/*    position: relative;*/
+    float: left;
+/*    margin-left: 500px;*/
+}
+
+.search-flight-content label{
+    margin-right: 70px;
+    padding-left: 100px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #41464B;
+    color: #222;
+}
+
+.search-flight-content input{
+    margin-top: 30px;
+    height: 40px;
+    padding: 5px;
+    color: #41464B;
+    
+
+}
+.search-flight-content button{
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 170px;
+    color: #41464B;
+    border: solid 1px #41464B;
+    padding: 7px;
+    position: absolute;
+    margin-top: 100px;
+/*    padding-top: 100px;*/
+/*    margin-bottom: -10px;*/
+    margin-left: 600px;
+}
+.search-flight-content button:hover{
+    background: #41464B;
+    color: #fff;
+}
+
+
+
+
+
+
+/*==================================================================================================================================                   STATIC PACKAGES
+===================================================================================================================================*/
+
+.whole-content{
+    width: 100%;
+    background: #eee;
+}
+.whole-middle-content{
+    width: 70%;
+/*    height: 250%;*/
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.static-package-top-section{
+    display: inline-block;
+
+}
+.tour-short-info{
+/*    display: inline;*/
+    float: left;
+    padding-left: 10px;
+}
+.tour-short-info h2{
+    
+}
+
+.top-container{
+    height:400px;
+    width: 810px;
+    margin-left: 450px;
+/*    background-color: blue;*/
+/*    position: relative;*/
+}
+.slide-show-container{
+    width: 600px;
+    height: 320px;
+    overflow: hidden;
+    background: black;
+/*    position: relative;*/
+    transition: left 2s;
+/*    margin-top: 50px;*/
+    margin-left: -100px;   
+}
+.links{
+    width: 700px;
+    height: 100px;
+    text-align: center;    
+    
+}
+.slides{
+    height: 400px;
+    width: 700px;
+    float: left;
+    display: inline;
+    transition: left 2s;
+    
+}
+
+.slide-change{
+    padding: 15;
+    color: #41464B;
+}
+#slide1{
+/*    background: url(https://www.healthyfood.co.nz/wp-content/uploads/2016/09/Cauliflower-pizza-base.jpg);*/
+/*
+    background: url("../img/bg-2.jpg");
+    box-sizing: border-box;
+    
+*/
+}
+#slide2{
+/*    background: url(https://quirkycooking.com.au/wp-content/uploads/2011/01/pizza-base.jpg);*/
+    background-repeat: no-repeat;
+/*
+    box-sizing: border-box;
+     background: url("../img/bg-1.jpg");
+    box-sizing: border-box;
+*/
+}
+#slide3{
+/*    background: url(https://www.healthyfood.co.nz/wp-content/uploads/2016/09/Cauliflower-pizza-base.jpg);   */
+/*
+     background: url("../img/bg-3.jpg");
+    box-sizing: border-box;
+*/
+}
+
+#slide1-img:target~.slides{
+    left: 0px;
+}
+
+#slide2-img:target~.slides{
+    left: -810px;
+}
+
+#slide3-img:target~.slides{
+    left: -1620px;
+}
+
+.dayvise-description{
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.dayvise-description .day{
+    float: left;
+    color: #fff;
+    background: red;
+    padding: 8px;
+    
+}
+.dayvise-description .day-description{
+    padding-left: 80px;
+    font-size: 16px;
+    color: #41464B;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.inclusion-and-exlusion{
+    display: inline-block;
+}
+.inclusion{
+    float: left;
+    width: 550px;
+}
+.exclusion{
+    float: left;
+}
+
+.inclusion ul{
+/*    display: inline-block;*/
+    overflow: hidden;
+    
+}
+.inclusion li{
+/*    display: inline;*/
+/*    float: left;*/
+    list-style: none;
+}
+.exclusion li{
+    list-style: none;
+    
+}
+
+.tour-short-info h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.tour-short-info h4{
+    font-size: 20px;
+}
+.tour-short-info p{
+    font-size: 16px;
+/*    text-align: center;*/
+}
+
+.cancellation h3{
+    font-size: 25px;
+}
+.cancellation p{
+    font-size: 18px;
+}
+
+.dept-and-cost label{
+    font-size: 20px;
+/*    margin-top: 25px;*/
+/*    line-height: 10px;*/
+    padding: 5px;
+}
+
+/*==================================================================================================================================                   Account and all
+===================================================================================================================================*/
+
+.account-popup{
+/*    width: 500px;*/
+    width: 100%;
+    background-color: #ddd;
+    opacity: 0.8;
+     height: 100px;
+/*    float: right;*/
+/*    margin-top: 60px;*/
+/*    margin-left: 1200px;*/
+}
+.account-popup .tp{
+/*    margin-top: 100px;*/
+}
+
+
+.account-popup a{
+    color: #41464B;
+    border: solid 1px #41464B;
+    text-decoration: none;
+    padding: 10px;
+/*    margin-bottom: 0px;*/
+    margin-left: 500px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.account-popup a:hover{
+    color: #fff;
+    background-color: #41464B;
+}
+
+    
+
+.login{
+    width: 100%;
+    background-color: #ddd;
+    opacity: 0.8;
+     height: 120px;
+/*    float: right;*/
+/*    margin-top: 60px;*/
+    
+}
+
+.login-info{
+    margin-top: 30px;
+    display: inline-block;
+
+}
+.login-info label{
+    margin-left: 170px;
+/*    margin-right: 50px;*/
+/*    padding-right: 50px;*/
+/*    margin-top: 150px;*/
+    font-size: 30px;
+    color: #41464B;
+}
+
+.login-info input{
+    font-size: 25px;
+    padding: 5px;
+    color: #41464B;
+    margin-left: 30px;
+}
+
+.login-info button{
+    text-decoration: none;
+    color: #41464B;
+    border: solid 1px #41464B;
+    padding: 7px;
+    font-size: 30px;
+     margin-left: 60px;
+}
+.login-info button:hover{
+    color: #fff;
+    background: #41464B;
+   
+}
+
+
+
+
+.signup{
+    width: 100%;
+    background-color: #ddd;
+    opacity: 0.8;
+    height: 280px;
+}
+
+.signup-info{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.signup-info label{
+    margin-left: 100px;
+    font-size: 30px;
+    color: #41464B;
+    
+}
+
+.signup-info input{
+    font-size: 20px;
+    padding: 4px;
+    color: #41464B;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.signup-info button{
+    text-decoration: none;
+    color: #41464B;
+    border: solid 1px #41464B;
+    padding: 7px;
+    font-size: 30px;
+    margin-left: 660px;
+    margin-top: 10px;
+}
+.signup-info button:hover{
+    color: #fff;
+    background: #41464B;
+   
+}
+
+
+
+
+/************Account info*************/
+
+
+.myacc-info{
+    display: table-cell;
+    width: 300px;
+    height: 100%;
+/*    margin-left: 1300px;*/
+    background: #eee;
+    right: 0px;
+    float: right;
+    
+    
+}
+
+
+.account-name h3{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.account-name h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 250px;
+}
+
+
+.account-name a{
+    text-decoration: none;
+    color: #41464B;
+    border: solid 1px #41464B;
+    padding: 7px;
+    font-size: 25px;
+    margin-left:20px;
+    margin-top: 450px;
+    
+}
+.account-name a:hover{
+    color: #fff;
+    background: #41464B;
+   
+}
+
+
+
+
+/*==================================================================================================================================                   Admin.php
+===================================================================================================================================*/
+
+
+#admin-section{
+    width: 100%;
+    height: 400%;
+    background: #eee;
+}
+
+.admin-rights-container{
+    height: 100%;
+    width: 80%;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.admin-rights-container ul{
+    display: inline-block;
+}
+.admin-rights-container li{
+    color: #bbb;
+    list-style: none;
+    float: left;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-right: solid 1px #41464B;
+    padding: 10px;
+    border-left: solid 1px #41464B;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.display-table{
+    width: 80%;
+    background: #fff;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.display-table table{
+    border: solid 1px #eee;
+    
+}
+.display-table table th,
+.display-table table td
+{
+    border: solid 1px #eee;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+}
+
+
+/***********add package**********/
+
+.add-package-form{
+    padding-top: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.add-package-form button{
+    text-decoration: none;
+    color: #41464B;
+    border: solid 1px #41464B;
+    padding: 5px;
+    margin-left: 40px;
+    background: #fff;
+}
+
+.add-package-form button:hover{
+    background: #41464B;
+    color: #fff;
+}
+
+
+
+/******************************************************Flights page *****************************////////////////////
+
+.section_flight{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    
+}    
+
+.middle_section_flight{
+    width: 70%;
+/*    height: 100%;*/
+    background: #eee;
+    margin: 0 auto;
+}
+
+
+
+.flight-shedule{
+    padding: 10px;
+}
+.heading{
+    padding: 10px;
+    border-bottom: dotted 2px #999;
+    border-top: dotted 2px #999;
+}
+.icon{
+    float:left;
+    padding:0 10px 10px 10px; 
+}
+.head-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.radio-button{
+    float: left;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: dotted 2px #999;
+    font-weight: 500;
+    
+}
+
+.strong{
+    font-weight: bold;
+}
+.small{
+    font-size: 10px;
+    padding-left: 2px;
+}
+
+.flight-shedule table a{
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+   font-size: 18px;
+}
+
+.add_person_for_flight_book input{
+    padding: 5px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+add_person_for_flight_book label{
+    
+}
+
+.continue_and_book_flight{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.continue_and_book_flight button,
+.continue_and_book_flight a{
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 8px;
+    font-size: 22px;
+    margin-right: 400px;
+    border: none;
+    cursor: pointer;
+/*    width: 200px;*/
+}
+/*    
+.continue_and_book_flight:hover{
+    box-shadow: 5px 10px #eee;
+}*/
+
+
+
+
+
+/******************************************************** hotel page *****************************************/
+
+.hotel_section{
+    width: 100%;
+/*    height: 100%;*/
+    background: #eee;
+}
+
+.hotel_middle_section{
+    width: 80%;
+/*    height: 100%;*/
+/*    background: #eee;*/
+    margin: 0 auto;
+}
+
+.row_hotel_section {
+  margin-right: -15px;
+  margin-left: -15px;
+   
+}
+.container_hotel_section{
+    padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-md-6_hotel_section{
+  
+  min-height: 1px;
+  padding-left:10%;
+    float:left;
+}
+
+
+.card_hotel_section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin-left:10%;
+    margin-bottom:10%;
+    float:left;
+    padding: 20px;
+    background: #eee;
+}
+
+.title_hotel_section {
+    color: grey;
+    font-size: 18px;
+}
+
+.container_hotel_section button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+.container_hotel_section a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.container_hotel_section button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.rating_hotel_section{
+    color: #E8D871;
+    padding-top: 2px;
+
+}
+.padding-left_hotel_section{
+    padding-left: 15px;
+}
+
+.empty_hotel_section{
+    color: #eee;
+    padding-top: 2px; 
+}
+.clearfix_hotel_section{
+    clear: both;
+}
+
+.h-name_hotel_section{
+    font-size: 22px;
+    color: #446EBB;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    float:inherit;
+}
+.city_hotel_section{
+    padding: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.city_name_hotel_section{
+    padding: inherit;
+}
+.pull-left_hotel_section{
+    margin-top: -30px;
+    padding: inherit;
+    margin-left: -10px;
+}
+
+
+
+
+/****************************************************** View Hotel.php   ****************************************/
+
+
+
+/********************************************** Edit package **********************************/
+
+.edit_package_css label{
+    font-size: 20px;
+/*    margin-bottom: 10px;*/
+    margin-right: 15px;
+/*    margin-top: 20px;*/
+}
+
+edit_package_css input{
+    font-size: 20px;
+/*    margin-bottom: 10px;*/
+    padding: 3px;
+}
